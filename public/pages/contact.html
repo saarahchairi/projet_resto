@@ -1,13 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <!--Lien bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Contact</title>
 </head>
+
 <body>
-    <p>Contacter nous!</p> 
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, porro?</p>
+
+    <main>
+        <!--Localisation du restaurant-->
+        <section>
+            <h1 class="h1 mt-4 mb-4 me-4 ms-4 text-center">Où nous trouver?</h1>
+            <div class="container">
+                <div class="card bg-light text-dark">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Le quatrième mur</h5>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11315.84816527218!2d-0.5828842594498232!3d44.842706380087606!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd5527da67e710a9%3A0xca2f442531c7bc0e!2sLe%20Quatri%C3%A8me%20Mur!5e0!3m2!1sfr!2sbe!4v1647522443455!5m2!1sfr!2sbe"
+                            width="auto" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        <!--Formulaire de réservation-->
+        <section>
+            <h1 class="h1 mt-4 mb-4 me-4 ms-4 text-center">Réserver une table</h1>
+            <div class="container">
+                <form>
+                    <fieldset>
+                        <legend>Remplissez le formulaire ci-dessous et notre équipe se fera un plaisir de vous répondre au plus vite.
+                            N’oubliez pas de nous apporter un maximum d’informations sur votre réservation, numéro de bon cadeaux …</legend>
+                        <div class="mb-3">
+                            <input type="text" id="TextInput" class="form-control" placeholder="Nom">
+                        </div>
+                        <div class="mb-3">
+                            <input type="text" id="TextInput" class="form-control" placeholder="Prénom">
+                        </div>
+                        <div class="mb-3">
+                            <input type="text" id="TextInput" class="form-control" placeholder="Adresse mail">
+                        </div>
+                        <div class="mb-3">
+                            <input type="text" id="TextInput" class="form-control" placeholder="Numéro de téléphone">
+                        </div>
+                        <div class="mb-3">
+                            <input type="text" id="TextInput" class="form-control" placeholder="Date et heure souhaitez">
+                        </div>
+                        <div class="mb-3">
+                            <label for="Select" class="form-label">Nombre de personne</label>
+                            <select id="Select" class="form-select">
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                                <option>6</option>
+                                <option>+ de 6 personnes</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="FieldsetCheck">
+                                <label class="form-check-label" for="FieldsetCheck">
+                                    Êtes-vous sûr de vouloir réserver?
+                                </label>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Réserver!</button>
+                    </fieldset>
+                </form>
+            </div>
+        </section>
+    </main>
+    <!--Lien js bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
 </body>
+
 </html>
