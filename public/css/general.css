@@ -1,0 +1,14 @@
+/* *************************************/
+/*    GENERAL reusable COMPONENTS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    /* allow user to change the font size */
+    font-size: 62.5%;
+    /* scroll-behavior: smooth; */
+}
