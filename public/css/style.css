@@ -1,3 +1,13 @@
+.header {
+    height: 100vh;
+    position: relative;
+    background-image: linear-gradient(rgba(253, 230, 22, 0.089),
+            rgba(88, 83, 4, 0.404)),
+        url(../assets/img/hero.jpg);
+    background-size: cover;
+    color: #fff;
+}
+
 /* *************************************/
 /*    Featured in */
 .section-featured {
@@ -22,25 +32,17 @@
     height: 3.2rem;
     filter: brightness(0);
     opacity: 50%;
+    margin-bottom: 5rem;
 }
 
 /* ajout de l'image de l'hero */
 
-.header {
-    height: 100vh;
-    position: relative;
-    background-image: linear-gradient(rgba(253, 230, 22, 0.089),
-            rgba(88, 83, 4, 0.404)),
-        url(../assets/img/hero.jpg);
-    background-size: cover;
-    color: #fff;
-}
 
 /* *************************************/
 /*   Section testimonials */
 
 .section-testimonials {
-    /* background-color: #fdf2e9; */
+    background-color: #6d686571;
     display: grid;
     grid-template-columns: 55fr 45fr;
     align-items: center;
