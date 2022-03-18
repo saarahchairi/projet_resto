@@ -12,3 +12,15 @@ html {
     font-size: 62.5%;
     /* scroll-behavior: smooth; */
 }
+.lien{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+}
+.lien:hover{
+    color: blueviolet;
+    font-style: italic;
+}
+.sans_puce{
+    list-style: none;
+}
