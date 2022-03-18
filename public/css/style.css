@@ -1,0 +1,96 @@
+/* *************************************/
+/*    Featured in */
+.section-featured {
+    padding: 4.8rem 0 3.2rem 0;
+}
+
+.heading-featured-in {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    letter-spacing: 0.75px;
+    text-align: center;
+    margin-bottom: 2.4rem;
+    color: #888;
+}
+
+.logos {
+    display: flex;
+    justify-content: space-around;
+}
+
+.logos img {
+    height: 3.2rem;
+    filter: brightness(0);
+    opacity: 50%;
+}
+
+/* ajout de l'image de l'hero */
+
+.header {
+    height: 100vh;
+    position: relative;
+    background-image: linear-gradient(rgba(253, 230, 22, 0.089),
+            rgba(88, 83, 4, 0.404)),
+        url(../assets/img/hero.jpg);
+    background-size: cover;
+    color: #fff;
+}
+
+/* *************************************/
+/*   Section testimonials */
+
+.section-testimonials {
+    /* background-color: #fdf2e9; */
+    display: grid;
+    grid-template-columns: 55fr 45fr;
+    align-items: center;
+}
+
+.testimonial-container {
+    padding: 9.6rem;
+}
+
+.testimonials {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 4.8rem;
+    column-gap: 8rem;
+}
+
+.testimonial-img {
+    width: 6.4rem;
+    border-radius: 50%;
+    margin-bottom: 1.2rem;
+}
+
+.testimonial-text {
+    font-size: 1.8rem;
+    line-height: 1.5;
+    margin-bottom: 1.6rem;
+}
+
+.testimonial-name {
+    font-size: 1.6rem;
+    color: #6f6f6f;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.6rem;
+    padding: 1.6rem;
+}
+
+.gallery-img {
+    display: block;
+    width: 100%;
+    transition: all 0.4s;
+}
+
+.gallery-img:hover {
+    transform: scale(1.1);
+}
+
+.gallery-item {
+    overflow: hidden;
+}
