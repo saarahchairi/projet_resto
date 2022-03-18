@@ -26,12 +26,12 @@
 
 /* ajout de l'image de l'hero */
 
-header {
+.header {
     height: 100vh;
     position: relative;
-    background-image: linear-gradient(rgba(41, 41, 41, 0.6),
-            rgba(22, 22, 22, 0.6)),
-        url(../assets/img/error.jpg);
+    background-image: linear-gradient(rgba(253, 230, 22, 0.089),
+            rgba(88, 83, 4, 0.404)),
+        url(../assets/img/hero.jpg);
     background-size: cover;
     color: #fff;
 }
